@@ -1,0 +1,227 @@
+{
+  "site": {
+    "name": "Deepesh",
+    "logo": "deepesh",
+    "tagline": "AI enthusiast & builder",
+    "year": 2026
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "id": "home"
+    },
+    {
+      "label": "About",
+      "id": "about"
+    },
+    {
+      "label": "Projects",
+      "id": "projects"
+    },
+    {
+      "label": "Contact",
+      "id": "contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "AI · Computer Vision · Full-stack",
+    "titleLine1": "Turning ideas into",
+    "titleLine2": "intelligent software.",
+    "intro": [
+      "I'm Deepesh, a Computer Science Engineering graduate and AI enthusiast.",
+      "I build computer vision and generative AI products people actually enjoy using.",
+      "Currently looking for internships and full-time opportunities."
+    ],
+    "primaryCta": {
+      "label": "See my projects",
+      "target": "projects"
+    },
+    "secondaryCta": {
+      "label": "More about me",
+      "target": "about"
+    }
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Curious mind. Practical builder.",
+    "paragraphs": [
+      "I'm an innovative AI enthusiast who loves turning research ideas into products that work in the real world. My focus sits where computer vision, generative AI and everyday software engineering meet.",
+      "I recently completed my B.E. in Computer Science Engineering, and I learn best by building: from AI stylists that preserve a person's identity in try-on images, to classifiers that fight misinformation, to tools that make communication more accessible.",
+      "I'm now looking for internships and full-time roles where I can keep building with AI. When I'm not coding, I'm reading research papers, exploring new models and sharpening my full-stack skills."
+    ],
+    "stats": [
+      {
+        "value": "3",
+        "label": "Featured projects"
+      },
+      {
+        "value": "1",
+        "label": "Conference paper"
+      },
+      {
+        "value": "B.E.",
+        "label": "CSE graduate"
+      }
+    ],
+    "skillGroups": [
+      {
+        "name": "AI & ML",
+        "items": [
+          "Computer Vision",
+          "Generative AI",
+          "NLP",
+          "Prompt Engineering",
+          "Model Evaluation"
+        ]
+      },
+      {
+        "name": "Web & Backend",
+        "items": [
+          "React",
+          "Vite",
+          "JavaScript",
+          "FastAPI",
+          "REST APIs"
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          "Python",
+          "Git & GitHub",
+          "VS Code",
+          "Replicate API",
+          "Jupyter"
+        ]
+      }
+    ],
+    "education": {
+      "school": "Sathyabama Institute of Science and Technology",
+      "place": "Chennai",
+      "degree": "Computer Science Engineering",
+      "status": "Graduate"
+    }
+  },
+  "projectsSection": {
+    "eyebrow": "Selected work",
+    "title": "Projects that ship.",
+    "intro": "A few things I've built recently. Click any project to read the details."
+  },
+  "projects": [
+    {
+      "id": "stylegen",
+      "title": "StyleGen AI",
+      "subtitle": "AI-powered smart fashion stylist",
+      "category": "Generative AI",
+      "featured": true,
+      "status": "Flagship project",
+      "summary": "A personal styling assistant that recommends outfits and hairstyles and shows you wearing them, while keeping your face recognisable.",
+      "description": [
+        "StyleGen AI takes a person's photo and preferences such as gender and occasion, then generates personalised style cards covering outfits, colours and hairstyles.",
+        "A virtual try-on step uses an image-to-image generative model (Flux 2 Pro via Replicate) with carefully engineered prompts so the generated look preserves the user's facial identity.",
+        "The backend is built with FastAPI and Python, and the frontend with React and Vite. The work also led to a co-authored research paper for ICICNS 2026."
+      ],
+      "highlights": [
+        "Style cards tailored by gender and occasion, with per-garment colour suggestions",
+        "Identity-preserving virtual try-on using image-to-image generation",
+        "Structured hairstyle recommendations instead of free-text output",
+        "FastAPI backend with a React + Vite frontend",
+        "Co-authored conference paper (ICICNS 2026)"
+      ],
+      "tech": [
+        "React",
+        "Vite",
+        "FastAPI",
+        "Python",
+        "Flux 2 Pro",
+        "Replicate"
+      ],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": ""
+        },
+        {
+          "label": "Live demo",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "fake-news",
+      "title": "Fake News Detection",
+      "subtitle": "Machine learning text classifier",
+      "category": "Machine Learning",
+      "featured": false,
+      "status": "Completed",
+      "summary": "An NLP model that classifies news articles as real or fake to help fight misinformation.",
+      "description": [
+        "This project trains a machine learning classifier on labelled news data to tell reliable articles from misleading ones.",
+        "Text goes through cleaning, tokenisation and feature extraction before being fed to the model, which is then evaluated on held-out data."
+      ],
+      "highlights": [
+        "Text preprocessing and feature extraction pipeline",
+        "Trained and compared classification models",
+        "Evaluated with accuracy, precision and recall"
+      ],
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "NLP",
+        "Pandas"
+      ],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "sign-language",
+      "title": "Sign Language to Text",
+      "subtitle": "Real-time gesture recognition",
+      "category": "Computer Vision",
+      "featured": false,
+      "status": "Completed",
+      "summary": "Reads hand gestures from a webcam and converts sign language into readable text in real time.",
+      "description": [
+        "This project recognises sign language gestures from a live camera feed and converts them into text, helping bridge the communication gap for people who are deaf or hard of hearing.",
+        "Hand landmarks are detected from each frame and passed to a trained model that predicts the sign."
+      ],
+      "highlights": [
+        "Real-time webcam gesture detection",
+        "Hand landmark extraction for robust recognition",
+        "Instant text output for each recognised sign"
+      ],
+      "tech": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "TensorFlow"
+      ],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something together.",
+    "text": "I'm open to internships, full-time roles, collaborations and interesting AI problems. Say hello and I'll get back to you.",
+    "email": "your.email@example.com",
+    "socials": [
+      {
+        "label": "GitHub",
+        "url": ""
+      },
+      {
+        "label": "LinkedIn",
+        "url": ""
+      }
+    ]
+  }
+}
